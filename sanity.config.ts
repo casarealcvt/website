@@ -6,8 +6,8 @@ import { schemaTypes } from "~/schemas";
 export default defineConfig({
   name: "default",
   title: "Casa Real",
-  projectId: import.meta.env.PUBLIC_SANITY_PROJECT_ID,
-  dataset: import.meta.env.PUBLIC_SANITY_DATASET,
+  projectId: 'yisnxk8n',
+  dataset: 'production',
   plugins: [structureTool(), visionTool()],
   schema: {
     types: schemaTypes,
